@@ -4,6 +4,8 @@ A GUI for annotating sentences.
 
 The script generates sentences from a small context-free grammar using NLTK, shows them one at a time in a Tkinter window, and asks the annotator to rate each one. When the window is closed, the sentences and their ratings are saved to a CSV file.
 
+This was a project for a Computational Linguistics course. The purpose of this project was to create a toy version of something that could aid in the documentation of synthetic data. The idea is that linguists can collect or acquire data from a low resource language and then generate synthetic data from that. Then, the synthetic data is presented to native speakers through an interface like this one so that they can easily annotate the sentence. These ratings are then saved to a spreadsheet so that the linguists can easily see the ratings, find patterns, figure out how to generate better synthetic data, and continue their research. The purpose of generating synthetic data that appears natural is to create enough data for low resource languages so that they can benefit from the use of language technology.  
+
 ## Requirements
 
 - Python 3
